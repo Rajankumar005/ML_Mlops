@@ -60,3 +60,8 @@ def load_object(file_path):
 
     except Exception as e:
         raise CustomException(e, sys)
+
+
+
+# df.rename(columns={'Tran Date': 'Date',' Amount(INR)': 'Amount','Transaction Particulars': 'Description'}, inplace=True)
+# df.rename(columns={'Transaction Date': 'Date','Deposit Amt (INR)': 'Amount','Transaction Remarks': 'Description'}, inplace=True)
