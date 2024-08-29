@@ -2,9 +2,9 @@ pandas
 numpy
 seaborn
 matplotlib
-scikit-learn==1.0.2
+scikit-learn
 catboost
 xgboost
+dill
 Flask
 
-#-e .
